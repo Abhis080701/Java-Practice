@@ -2,7 +2,7 @@ public class RevNum {
      static void revN(int n)
      {
         String Original = String.valueOf(n);
-        
+
         String rev="";
         for(int i=Original.length()-1;i>=0;i--)
         {
@@ -11,7 +11,7 @@ public class RevNum {
         System.out.println(rev);
      }
     public static void main(String[] args) {
-       revN(123);
+       revN(100);
     }
 
 }
